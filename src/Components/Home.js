@@ -1,18 +1,12 @@
-import React from 'react'
 import "./Home.css"
 import Navbar from "./Navbar"
-
+import HomeContent from "./HomeContent"
 
 const Home = () => {
     return (
         <div className="home">
-            {<Navbar />}
-            
-            <div className="content"> 
-               <h1> Interior </h1> 
-               <h3> When home feels like home </h3>
-             </div>
-
+            <Navbar />
+            <HomeContent content="content" />
         </div>
     )
 }
