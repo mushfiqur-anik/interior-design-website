@@ -1,11 +1,26 @@
-.ml-auto {
-    padding-right: 10px;
-}
-
-.navbar-light{
-    background:transparent;
+#icon {
+   color: rgb(233, 203, 148)!important;
+   padding-left:2px;
 }
 
 .navbar-brand {
-    padding-left: 2%;
+    font-size:20px;
+    font-weight: 400;
+    padding-left: 3%;
+    font-style: italic;
+    letter-spacing: .1rem;
+    color: black!important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px!important;
+    color: black!important;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: whitesmoke;
+}
+
+.navbar-nav{
+    padding-right:35px;
 }

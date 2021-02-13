@@ -1,8 +1,8 @@
 const HomeContent = ({content}) => {
     return (
         <div className={content}> 
-             <h1> Interior </h1> 
-             <p> Where home feels like home </p>
+             <h1 fluid> Galaxy Interior </h1> 
+             <p> When home feels like home </p>
         </div>
     )
 }
