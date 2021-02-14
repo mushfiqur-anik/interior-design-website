@@ -1,5 +1,23 @@
 .container {
- 
     padding: 50px;
 }
 
+.container h2 {
+    margin-bottom: 50px;
+}
+
+.line { 
+    width: 250px;  
+    /* This gives a little shadow effect*/
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid gold;
+    margin-top: 8px;
+}
+
+.h {
+    padding-top: 40px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
