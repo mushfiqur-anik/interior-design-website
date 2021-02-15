@@ -1,0 +1,19 @@
+.aboutComHeader {
+    margin-bottom: 20px;
+}
+
+.aboutLine { 
+    width: 400px;  
+    /* This gives a little shadow effect*/
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid gold;
+    margin-top: 8px;
+}
+
+.aboutComPar {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+

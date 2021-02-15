@@ -1,0 +1,18 @@
+.aboutDirHeader {
+    margin-bottom: 30px;
+}
+
+.directorName {
+    margin-top: 20px;
+}
+
+.fab {
+    font-size: 25px;
+    padding:10px;
+}
+
+.fab fa-facebook-square {
+    color: #3b5998 !important;
+    font-size: 200px;
+
+}
