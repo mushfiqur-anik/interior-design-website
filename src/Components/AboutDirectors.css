@@ -7,12 +7,18 @@
 }
 
 .fab {
-    font-size: 25px;
+    font-size: 28px;
     padding:10px;
 }
 
-.fab fa-facebook-square {
+.fa-facebook-square {
     color: #3b5998 !important;
-    font-size: 200px;
+}
 
+.fa-twitter-square {
+    color: #1DA1F2;
+}
+
+.fa-linkedin {
+    color: #2867B2;
 }
