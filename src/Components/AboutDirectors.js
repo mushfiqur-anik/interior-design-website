@@ -10,35 +10,35 @@ const AboutDirectors = () => {
         <Row> 
            
             <Col> 
-              <Image width="200" height="200" roundedCircle src="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f4ebe0c87612dab4f12a597%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D292%26cropX2%3D3684%26cropY1%3D592%26cropY2%3D3987"/> 
-              <h4 className="directorName"> Bill Gates </h4>
+              <Image width="200" height="200" roundedCircle src="https://images.unsplash.com/photo-1579342293157-b72c38636008?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1957&q=80"/> 
+              <h4 className="directorName"> Bill Smith </h4>
               <p className="directorWords"> orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut l</p>
               <p className="directorSocial"> 
-                     <i className="fab fa-linkedin"></i>
-                     <i class="fab fa-facebook-square"></i>
-                     <i className="fab fa-twitter-square"></i>
+                     <a href="https://www.linkedin.com/">  <i className="fab fa-linkedin"></i> </a>
+                     <a href="https://www.facebook.com/">   <i class="fab fa-facebook-square"></i> </a>
+                     <a href="https://twitter.com/">  <i className="fab fa-twitter-square"></i> </a>
               </p>
             
              </Col>
              <Col> 
-              <Image width="200" height="200" roundedCircle src="https://pbs.twimg.com/profile_images/864282616597405701/M-FEJMZ0_400x400.jpg"/> 
-              <h4 className="directorName"> Sundar Pichai </h4>
+              <Image width="200" height="200" roundedCircle src="https://images.unsplash.com/photo-1579948480844-e8276cc0e754?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"/> 
+              <h4 className="directorName"> James Andrews </h4>
               <p className="directorWords"> orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut l</p>
               <p className="directorSocial"> 
-                     <i className="fab fa-linkedin"></i>
-                     <i class="fab fa-facebook-square"></i>
-                     <i className="fab fa-twitter-square"></i>
+                     <a href="https://www.linkedin.com/">  <i className="fab fa-linkedin"></i> </a>
+                     <a href="https://www.facebook.com/">   <i class="fab fa-facebook-square"></i> </a>
+                     <a href="https://twitter.com/">  <i className="fab fa-twitter-square"></i> </a>
               </p>
             
              </Col>
              <Col> 
-              <Image width="200" height="200" roundedCircle src="https://images.macrumors.com/t/RqQ0xugCz3nnDfgCqMmlYR1B3wo=/1600x0/filters:quality(90)/article-new/2016/08/cook_hero.png"/> 
-              <h4 className="directorName"> Tim Cook </h4>
+              <Image width="200" height="200" roundedCircle src="https://images.unsplash.com/photo-1551914076-92a0efd48740?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"/> 
+              <h4 className="directorName"> Timmy Jones </h4>
               <p className="directorWords"> orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut l</p>
               <p className="directorSocial"> 
-                     <i className="fab fa-linkedin"></i>
-                     <i class="fab fa-facebook-square"></i>
-                     <i className="fab fa-twitter-square"></i>
+                     <a href="https://www.linkedin.com/">  <i className="fab fa-linkedin"></i> </a>
+                     <a href="https://www.facebook.com/">   <i class="fab fa-facebook-square"></i> </a>
+                     <a href="https://twitter.com/">  <i className="fab fa-twitter-square"></i> </a>
               </p>
             
              </Col>

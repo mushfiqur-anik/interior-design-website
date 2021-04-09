@@ -3,14 +3,21 @@ import AboutCompany from "./AboutCompany"
 import AboutDirectors from "./AboutDirectors"
 import {Container} from "react-bootstrap"
 import "./About.css"
+import Navbar from "./Navbar"
 
 const About = () => {
     return (
-        <Container className="about">
+        <>
+         <Navbar />
+
+         <Container className="about">
             <AboutCompany />
             <AboutDirectors />
 
         </Container>
+        
+        </>
+       
     )
 }
 

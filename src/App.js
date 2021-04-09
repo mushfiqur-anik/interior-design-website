@@ -4,15 +4,18 @@ import Home from "./Components/Home"
 import Services from "./Components/Services"
 import About from "./Components/About"
 import Contact from "./Components/Contact"
+import {HashRouter as Router,  Route, Link, Switch} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
-      <Services />
-      <About />
-      <Contact />
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/home" exact component={Home} />
+        <Route path="/services" component={Services} /> 
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
+    </Router>
   );
 }
 

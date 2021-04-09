@@ -1,9 +1,15 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import "./Contact.css"
+import Navbar from "./Navbar"
+
 
 const Contact = () => {
     return (
+
+        <>
+        <Navbar/>
+
         <div className="contact">
             <Container >
                 <Row className="text-center"> 
@@ -19,15 +25,18 @@ const Contact = () => {
                          <div className="contactContent"> Email: galaxyinterior@info.com  </div>
                          <div className="contactContent"> Phone: 541 292 0139 </div>
                         <div className="contactContent">  
-                             <i className="fab fa-linkedin"></i>
-                             <i class="fab fa-facebook-square"></i>
-                             <i className="fab fa-twitter-square"></i>
+                            <a href="https://www.linkedin.com/">  <i className="fab fa-linkedin"></i> </a>
+                            <a href="https://www.facebook.com/">   <i class="fab fa-facebook-square"></i> </a>
+                            <a href="https://twitter.com/">  <i className="fab fa-twitter-square"></i> </a>
                          </div>
                     </Col>
                 </Row>
             </Container>
-            <div className="text-center"> Copyrights @2021</div>
+           
         </div>
+        </>
+        
+        
     )
 }
 
