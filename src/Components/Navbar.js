@@ -5,7 +5,7 @@ import {Nav, Form, FormControl, Navbar, Alert, Button, NavDropdown} from "react-
 const NavbarMenu = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" className="navbar-custom">
-    <Navbar.Brand href="#home"> Galaxy Interior <i id="icon" className="fas fa-fire-alt"></i> </Navbar.Brand>
+    <Navbar.Brand href="#"> Galaxy Interior <i id="icon" className="fas fa-fire-alt"></i> </Navbar.Brand>
 
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
